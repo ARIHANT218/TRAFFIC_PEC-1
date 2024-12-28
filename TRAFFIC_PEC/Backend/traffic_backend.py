@@ -18,6 +18,8 @@ load_dotenv()
 # Retrieve the API key from the environment variables
 API_KEY = os.getenv("API_KEY")
 
+
+
 # Initialize FastAPI app
 app = FastAPI()
 
